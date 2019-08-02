@@ -1,0 +1,11 @@
+d1 $ sound "bd sd:1"
+
+d2 $ sound "hh hh [hh hh] hh"
+
+d3 $ sound "bass2"
+
+solo 1
+
+d1 $ sound "bd [sd sd sd sd cp]"
+
+unsolo 1
