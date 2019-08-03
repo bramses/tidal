@@ -1,11 +1,15 @@
-d1 $ sound "bd sd:1"
+setcps (80/60/4)
 
-d2 $ sound "hh hh [hh hh] hh"
+d1 $ sound "bd:2*2 ~ bd:2 ~ ~ bd:2 ~ ~"
 
-d3 $ sound "bass2"
+d4 $ sound "bass3:2*2 ~ bass3:2 ~ ~ bass3:2 ~ ~" # room 0.9 # delay 0.8 # lpf 1000
 
-solo 1
+d2 $ sound "~ ~ ~ cp:2 ~ ~ ~ cp:2"
 
-d1 $ sound "bd [sd sd sd sd cp]"
+d3 "hh:8*16"
 
-unsolo 1
+d5 $ up "1 4 5 5" # sound "arp:1 " # gain 1.0
+
+d6 $ sound "dorkbot" # room 0.2
+
+hush
