@@ -1,0 +1,57 @@
+-- bpm
+setcps(80/60/4)
+
+-- hush
+hush
+
+-- d1
+d1 $ up "-3 -3 -2 -1" # sound "bass1:1/2"
+
+d1 $ sound "east:5 east:6"
+
+d1 $ up "-3 -3 -7 -7" # sound "toys:1" # room 0.2
+
+d1 silence
+
+-- d2
+d2 $ sound "sd sd sd ~" # gain 0.3
+
+d2 "~ cp ~ cp"
+
+d2 "hh*8"
+
+d2 silence
+
+-- d3
+d3 $ sound "808bd:1 808bd 808bd 808bd"
+
+d3 "bass1*4"
+
+d3 $ sound "jungbass:5"
+
+d3 silence
+
+-- d4
+d4 $ sound "casio casio:1"
+
+d4 "hh*16"
+
+d4 $ sound "casio casio:1*2"
+
+d4 $ up "-5" # sound "rave"
+
+d4 $ sound "rave:2 ~ ~ [rave:2*4] ~ ~ ~ rave"
+
+d4 silence
+
+-- d5
+d5 $ sound "~ cp ~ cp"
+
+d5 $ sound "speakspell ~ ~ speakspell:5 ~ ~ speakspell:7 ~ ~ speakspell:9 ~ ~"
+
+d5 $ up "11 9 7 19" # sound "moog:1"
+
+d5 silence
+
+-- d6
+d6 $ sound "toys"

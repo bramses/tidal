@@ -13,3 +13,33 @@ d5 $ up "1 4 5 5" # sound "arp:1 " # gain 1.0
 d6 $ sound "dorkbot" # room 0.2
 
 hush
+
+
+d2 $ up "1 2 5 4" # sound "uxay:2"
+
+d2 "hh*8"
+
+d3 $ sound "bd ~ ~ ~ ~ bd ~ ~ ~ bd"
+
+d4 "bass1"
+
+d5 "~ cp ~ cp"
+
+d6 $ up "0 2 0 -3" # sound "xmas" # gain 0.6
+
+d7 $ sound "wind ~ ~ wind:2 ~ ~ wind:1 ~ ~" # room 12.3 # gain 0.8
+
+d6 $ up "-10 -5 -2 -20" # sound "trump:2*3"
+
+d6 $ sound "speechless:4"
+
+d7 $ sound "tablex:2" # gain 0.5 # lpf 600
+
+
+
+d7 silence
+
+
+d6 $ up "1 2 3 4 0" # sound "numbers numbers:1 numbers:2 numbers:3"
+
+d7 $ sound "sitar:1 sitar:3"

@@ -1,0 +1,14 @@
+-- bpm
+setcps(120/60/4)
+
+-- hush
+hush
+
+-- d1
+d1 silence
+
+-- d2
+d2 silence
+
+-- d3
+d3 silence
