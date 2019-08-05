@@ -1,0 +1,142 @@
+-- bpm
+setcps(120/60/4)
+
+setcps(80/60/4)
+
+
+-- thank you. until next time. all code can be found at github -> bramses -> tidal
+
+-- bye :)
+
+-- hush
+hush
+
+-- d1 
+
+d1 $ sound "beatz:1" # end 0.2
+
+d1 $ sound "beatz:7" # end 0.14
+
+d1 $ sound "beatz:3" 
+  # end 0.4
+  # accelerate 0.6
+  -- # attack 2.9
+
+d1 $ up "1 ~ ~ 2 ~ 2 ~  ~ 3"
+   # sound "stomp"
+   # leslie 1.0
+   -- # pan 1.0
+   # n "0 1 2"
+
+
+d1 $ sound "procshort"
+   # n "0 1 5"
+   # gain 0.3
+
+d1 $ up "-6 ~ ~ -9 ~ ~ -6 ~ ~ -2 ~ ~ "
+   # sound "moog:1"
+
+d1 $ up "-3 ~ ~ ~ ~ -5 ~ ~ ~ ~ ~ -8 ~ ~ ~ ~ -10 ~ ~ ~ ~" 
+   # s "moog:2"
+   # end 0.2
+   
+
+d1 silence
+
+
+-- d2
+
+d2 $ sound "bd:1 bd:2 bd:1 bd:2" 
+   # accelerate 0.3
+   # room 0.35
+   # pan 0.0
+
+
+d2 $ sound "beatz:45" 
+   # room "0.22"
+   # squiz 0.1
+
+
+d2 $ sound "pad"
+   # leslie 11.3
+   # n "1 2 3"
+
+d2 $ sound "pad"
+   # n "0 4 6"
+
+d2 $ sound "db ~ db ~"
+
+d2 silence
+
+-- d3
+
+d3 $ sound "~ cp ~ cp"
+
+d3 $ s "~ realclaps ~ realclaps"
+
+d3 $ sound "~ led ~" 
+   # end 0.2
+
+d3 $ sound "less less less <less*3>"
+
+-- d4
+
+d4 $ sound "beatz:26" 
+
+d4 $ sound "birds:1"
+   # size 0.4
+   # gain 0.5
+   # pan 0.2
+   
+
+d4 $ up "1 ~ ~ 1 ~  ~ 2 1"
+   # sound "invaders:4"
+   # gain 0.8
+
+d4 $ sound "blue:1"
+   # gain 1.6
+   # accelerate 0.7
+   # size 2.3
+   # attack 1.9   
+
+d4 silence
+
+-- d5 
+
+d5 $ sound "beatz:10" 
+   # end 0.35
+
+d5 $  up "-2 ~ ~ -5 ~ ~ -3 ~ ~ ~"
+   # sound "arp:1"
+
+d5 $ sound "fest"
+   # vowel "[a e ~]"
+   # delay 0.3   
+
+--- atmosphere thing
+d5 $ sound "beatz:19" 
+   # end 0.12
+   # delay 0.6
+   # leslie 0.3
+
+d5 $ sound "pebbles"
+   # delay "0.1"
+   # n "1 2 5"
+
+
+d5 silence 
+
+-- d6
+
+d6 $ sound "reverbkick reverbkick reverbkick reverbkick"
+   # gain 1.28
+
+d6 silence
+
+-- d7
+
+d7 $ s "rave:5 <rave:3 rave>"
+
+-- d8
+d8 $ sound "crow"
+   # leslie 0.88
