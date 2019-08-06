@@ -1,0 +1,151 @@
+setcps(120/60/4)
+
+
+-- thank you for watching. as always, this code will be uploaded to github
+
+-- bye :)
+
+hush
+
+-- d1
+d1 silence
+
+-- bass drum
+d1 $ s "bd bd bd bd"
+
+-- d2
+
+-- claps
+d2 silence
+
+d2 $ s "~ cp ~ cp"
+
+-- pad long
+d2 $ s "bt:133"
+   # gain 0.6
+
+
+-- d3
+d3 silence
+
+-- drum loop
+d3 $ s "bt:55"
+   # end 0.25
+
+-- clap loop
+d3 $ s "bt:89"
+   # end 0.15
+
+-- synth stabs
+d3 $ up "-1  ~ ~ ~ -6 ~  ~ ~"
+   # s "bt:250"
+   # gain 0.6
+
+-- tamborine
+d3 $ s "bt:238" 
+
+-- atmosphere
+d3 $ s "bt:135"
+   # end 0.5
+   # accelerate 0.2
+   # gain 0.8
+
+
+-- arp
+d3 $ s "bt:185"
+   # end 0.4
+   # leslie 0.1
+   # pan 0.8
+   # gain 0.6
+
+-- thats what im talking
+d3 $ up "-4"
+   # s "bt:247"
+
+-- d4
+d4 silence
+
+-- claves 
+d4 $ s "bt:221"
+   # end 0.4
+
+-- thats what im talkin about
+d4 $ up "-5" 
+   # s "bt:247"
+
+
+-- deep fast bass
+d4 $ s "bt:75"
+
+
+-- atmosphere
+d4 $ s "bt:144"
+   # end 0.5
+
+
+-- d5
+d5 silence
+
+-- perc loop high tonal
+d5 $ s "bt:231"
+   # end 0.4
+   # accelerate 0.11
+
+-- fast kick
+d5 $ s "bt:235"
+   # end 0.5
+
+-- vox
+d5 $ up "-6  -3 ~ -3 ~ ~ -5 ~"
+   # s "bt:200"
+   # end 0.5
+   # pan 0.2
+   # size 0.6
+
+
+-- riser
+d5 $ s "bt:249"
+
+-- frog croak
+d5 $ s "bt:248"
+   # leslie 1.0
+
+-- oooh ooh sing thing
+d5 $ up "-2"
+   # s "bt:244"
+   # end 0.75
+
+
+-- fast kick 
+d5 $ s "bt:235"
+   # end 0.25
+
+
+-- d6
+d6 silence
+
+-- orbit
+d6 $ s "bt:243"
+   # end 0.5
+
+-- creepy space atmos
+d6 $ s "bt:241"
+   # end 0.5
+
+
+-- d7
+d7 silence
+
+-- fast kick loop
+d7 $ s "bt:235"
+   # end 0.3
+
+-- riser
+d7 $ s "bt:240"
+ 
+d7 $ s "bt:233"
+   # gain 0.3
+  
+d7 silence
+
+hush
